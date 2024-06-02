@@ -5,7 +5,7 @@ This CA was to help us learn how to use both unit testing and End-to-End testing
 This is 
 
 ## NPM Tools:
-Babel
+* Babel
 Cypress
 Prettier
 Husky
