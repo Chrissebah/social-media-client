@@ -28,7 +28,7 @@ The Unit tests are located in src/unit-tests folder.
 
 ## to run Unit-tests:
 
-$ npm run test-unit
+``` npm run test-unit ```
 
 There is a login function that stores a token in the local storage of your browser.
 There is also a function that deletes and removes the token from the local storage.
@@ -39,7 +39,7 @@ The E2E tests are located in cypress/e2e folder.
 
 ## to run E2E test:
 
-$ npm run test-e2e-cli
+``` npm run test-e2e-cli ```
 
 the user can login with the correct credentials.
 the user can logout and the token is removed from localStorage.
