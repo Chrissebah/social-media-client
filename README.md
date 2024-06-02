@@ -6,12 +6,12 @@ This is
 
 ## NPM Tools:
 * Babel
-Cypress
-Prettier
-Husky
-Jest
-Eslint
-vite
+* Cypress
+* Prettier
+* Husky
+* Jest
+* Eslint
+* vite
 
 ## Installation
 If you want to try this project out yourself, clone this repository, open it in your code editor of choice and initilize git.
