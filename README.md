@@ -2,7 +2,7 @@
 This CA was to help us learn how to use both unit testing and End-to-End testing. 
 
 ## Description:
-This is 
+This is my CA for workflow. The CA allows you to run tests from both unit testing with Jest and End-to-end testing with Cypress. I used some other NPM tools just to make things work together a little bit better.
 
 ## NPM Tools:
 * Babel
@@ -33,7 +33,7 @@ The Unit tests are located in src/unit-tests folder.
 
 ``` npm run test-unit ```
 
-There is a login function that stores a token in the local storage of your browser.
+There is a login function that stores a token in the local storage of your browser. </br>
 There is also a function that deletes and removes the token from the local storage.
 
 ## E2E test
@@ -44,8 +44,8 @@ The E2E tests are located in cypress/e2e folder.
 
 ``` npm run test-e2e-cli ```
 
-the user can login with the correct credentials.
-the user can logout and the token is removed from localStorage.
+The user can login with the correct credentials. </br>
+The user can logout and the token is removed from localStorage. </br>
 Form validation checks.
 
 ## Contributing
