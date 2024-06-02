@@ -17,9 +17,11 @@ This is my CA for workflow. The CA allows you to run tests from both unit testin
 If you want to try this project out yourself, clone this repository, open it in your code editor of choice and initilize git.
 
 ``` git init ``` </br>
+
 Install dependencies
 
 ``` npm i ``` </br>
+
 Build SASS
 
 ``` npm run build ```
@@ -29,7 +31,7 @@ Build SASS
 
 The Unit tests are located in src/unit-tests folder.
 
-## to run Unit-tests:
+## To Run Unit-tests:
 
 ``` npm run test-unit ```
 
