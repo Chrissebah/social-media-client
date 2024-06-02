@@ -16,15 +16,17 @@ This is
 ## Installation
 If you want to try this project out yourself, clone this repository, open it in your code editor of choice and initilize git.
 
-``` git init ```
+``` git init ``` </br>
 Install dependencies
 
-``` npm i ```
+``` npm i ``` </br>
 Build SASS
 
 ``` npm run build ```
 </br>
-Unit tests:
+
+## Unit tests:
+
 The Unit tests are located in src/unit-tests folder.
 
 ## to run Unit-tests:
