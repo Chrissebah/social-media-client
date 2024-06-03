@@ -1,4 +1,5 @@
-# Workflow CA </br>
+# Workflow CA 
+
 This CA was to help us learn how to use both unit testing and End-to-End testing. 
 
 ## Description:
@@ -16,16 +17,16 @@ This is my CA for workflow. The CA allows you to run tests from both unit testin
 ## Installation
 If you want to try this project out yourself, clone this repository, open it in your code editor of choice and initilize git.
 
-``` git init ``` </br>
+``` git init ``` 
 
 Install dependencies
 
-``` npm i ``` </br>
+``` npm i ```
 
 Build SASS
 
 ``` npm run build ```
-</br>
+
 
 ## Unit tests:
 
@@ -35,7 +36,7 @@ The Unit tests are located in src/unit-tests folder.
 
 ``` npm run test-unit ```
 
-There is a login function that stores a token in the local storage of your browser. </br>
+There is a login function that stores a token in the local storage of your browser. 
 There is also a function that deletes and removes the token from the local storage.
 
 ## E2E test
@@ -46,8 +47,8 @@ The E2E tests are located in cypress/e2e folder.
 
 ``` npm run test-e2e-cli ```
 
-The user can login with the correct credentials. </br>
-The user can logout and the token is removed from localStorage. </br>
+The user can login with the correct credentials. 
+The user can logout and the token is removed from localStorage.
 Form validation checks.
 
 ## Contributing
