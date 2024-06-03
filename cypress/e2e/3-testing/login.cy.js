@@ -12,8 +12,13 @@ describe("Testing login functionality", () => {
       cy.get("#loginPassword").type(userPassword);
       cy.get("#loginForm button[type=submit]").contains("Login").click();
   
-     
       cy.url().should("include", "profile");
+  
+      cy.window().then((window) => {
+        const token = window.localStorage.getItem('token');
+        expect(token).to.exist;
+        expect(token).to.not.be.empty;
+      });
     });
   });
   
